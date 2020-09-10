@@ -1,0 +1,17 @@
+{
+	"name": "DestinationDataset_f27",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linked_dlspatriciomendez",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "data-catalogos"
+			}
+		}
+	}
+}
