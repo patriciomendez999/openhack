@@ -1,0 +1,6 @@
+{
+	"name": "integrationRuntime1-coffe",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
