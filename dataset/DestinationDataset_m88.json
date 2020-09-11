@@ -1,0 +1,21 @@
+{
+	"name": "DestinationDataset_m88",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linked_dlspatriciomendez",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "prueba"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
