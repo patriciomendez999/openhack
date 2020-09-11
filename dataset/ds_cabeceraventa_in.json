@@ -1,0 +1,19 @@
+{
+	"name": "ds_cabeceraventa_in",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linked_dlspatriciomendez",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "dboOrders.txt",
+				"fileSystem": "data-sales"
+			}
+		},
+		"schema": []
+	}
+}
