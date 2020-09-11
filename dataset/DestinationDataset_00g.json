@@ -1,0 +1,21 @@
+{
+	"name": "DestinationDataset_00g",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linked_dlspatriciomendez",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "prueba"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
