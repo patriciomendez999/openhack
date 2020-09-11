@@ -1,0 +1,14 @@
+{
+	"name": "SourceDataset_lj4",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linked_Catalogos",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"typeProperties": {
+			"collectionName": "movies"
+		}
+	}
+}
