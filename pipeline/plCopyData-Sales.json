@@ -1,9 +1,9 @@
 {
-	"name": "cpCopyData_sales",
+	"name": "plCopyData-Sales",
 	"properties": {
 		"activities": [
 			{
-				"name": "ForEach_562",
+				"name": "ForEach_5ms",
 				"type": "ForEach",
 				"dependsOn": [],
 				"userProperties": [],
@@ -14,7 +14,7 @@
 					},
 					"activities": [
 						{
-							"name": "Copy_562",
+							"name": "Copy_5ms",
 							"type": "Copy",
 							"dependsOn": [],
 							"policy": {
@@ -55,7 +55,7 @@
 							},
 							"inputs": [
 								{
-									"referenceName": "SourceDataset_562",
+									"referenceName": "SourceDataset_5ms",
 									"type": "DatasetReference",
 									"parameters": {
 										"cw_table": "@item().source.table"
@@ -64,7 +64,7 @@
 							],
 							"outputs": [
 								{
-									"referenceName": "DestinationDataset_562",
+									"referenceName": "DestinationDataset_5ms",
 									"type": "DatasetReference",
 									"parameters": {
 										"cw_fileName": "@item().destination.fileName"
@@ -115,8 +115,6 @@
 				]
 			}
 		},
-		"annotations": [],
-		"lastPublishTime": "2020-09-10T18:44:47Z"
-	},
-	"type": "Microsoft.DataFactory/factories/pipelines"
+		"annotations": []
+	}
 }
